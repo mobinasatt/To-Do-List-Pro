@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #FAFAFA;
+        font-family: 'Nunito', sans-serif;
+        padding-top: 50px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Raleway', sans-serif;
+    }
+    a,p{
+        color : #4b5156;
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 550px;
+        margin: auto;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+        box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+
+    }
+</style>
+<body>
+<div class="container">
+    {% block content %}
+
+    {% endblock content %}
+</div>
+</body>
+</html>

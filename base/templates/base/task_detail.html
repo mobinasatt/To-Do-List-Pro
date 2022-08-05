@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ task.title }}</title>
+</head>
+<body>
+<button class="btn-success"><a href="{% url 'task_list' %}">Go Back</a></button>
+<h1>Task: {{ task }}</h1>
+<p>{{ task.description }}</p>
+</body>
+</html>
